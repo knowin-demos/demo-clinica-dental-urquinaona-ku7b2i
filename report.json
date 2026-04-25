@@ -1,0 +1,106 @@
+{
+  "empresa": "Clinica Dental Urquinaona",
+  "web": "https://clinicadentalurquinaona.com",
+  "sector": "salud",
+  "builder": "unknown",
+  "fecha": "2026-04-25T15:40:15.786Z",
+  "templateVersion": "v9-skin-viral",
+  "aiModel": "skin-overlay-viral",
+  "aiCost": "$0.00",
+  "cssPersonalized": true,
+  "cssApproach": "skin-overlay-viral",
+  "philosophy": "CONTENIDO_INTACTO + APARIENCIA_PREMIUM + COMPONENTES_VIRALES",
+  "verify": {
+    "passed": false,
+    "issues": [
+      "V2: meta referrer=no-referrer — rompe carga CSS"
+    ],
+    "warnings": [],
+    "sizeKB": 131,
+    "checksRun": 12,
+    "checksPassed": 11
+  },
+  "cssSelectorsUsed": {
+    "sections": "body > main > section,body > div > section,body > section",
+    "cards": "[class*=\"card\"]:not([class*=\"card-body\"]):not([class*=\"card-header\"]),[class*=\"service-box\"],[class*=\"feature-box\"],[class*=\"team-member\"],[class*=\"pricing\"]",
+    "buttons": "a[class*=\"btn\"]:not([class*=\"nav\"]):not([class*=\"menu\"]):not([class*=\"close\"]),a[class*=\"cta\"],a[class*=\"button\"]:not([class*=\"nav\"]):not([class*=\"menu\"])",
+    "nav": "header.fixed,header.sticky,[class*=\"sticky-header\"],[class*=\"fixed-header\"]"
+  },
+  "siteAnalysis": {
+    "builder": "unknown",
+    "fonts": [
+      "TildaSans",
+      "Roboto",
+      "Arial"
+    ],
+    "colors": [
+      "#ff8562",
+      "#2015FF",
+      "rgba(255,255,255,.1)",
+      "#000000",
+      "#fff"
+    ],
+    "hasStickyHeader": false,
+    "hasTestimonials": false,
+    "hasSlider": true,
+    "hasGallery": true,
+    "imgCount": 8,
+    "formCount": 1
+  },
+  "improvements": [
+    "URLs relativas → absolutas (https://clinicadentalurquinaona.com)",
+    "Eliminados scripts de tracking",
+    "Skin Overlay Premium (tipografía, border-radius, sombras, scrollbar)",
+    "Banner demo + Sticky Nav inteligente con progress",
+    "Schema.org JSON-LD (MedicalBusiness)",
+    "Componentes virales: Tel Tooltip, Back-to-Top, Lightbox automático",
+    "7 imgs lazy loading"
+  ],
+  "skinOverlay": [
+    "Tipografía Manrope + Inter (premium 2026)",
+    "Border-radius 14px en imágenes y tarjetas",
+    "Sombras multicapa (efecto Apple)",
+    "Background sutil con gradiente branded",
+    "Scrollbar premium con colores del sector",
+    "Selección de texto branded",
+    "Scroll reveal secciones (opacity:0.3 failsafe)",
+    "Image zoom en hover",
+    "Input focus glow branded",
+    "Botones con hover elevación"
+  ],
+  "viralComponents": [
+    "Sticky Nav inteligente con progress bar (estilo Stripe)",
+    "Tooltip animado en teléfonos (Llamar ahora)",
+    "Smart Back-to-Top con progress circular",
+    "Lightbox automático en imágenes grandes",
+    "Demo banner inline"
+  ],
+  "preservedContent": "TEXTO INTACTO, ESTRUCTURA INTACTA, POSICIONES INTACTAS",
+  "extractedData": {
+    "phone": "65-6364613",
+    "email": "infoclinicadental2022@gmail.com",
+    "address": "plaza Urquinaona! Nosotros cuidamos de la salud bucodental, actualmente usamos las ult",
+    "jsonLdFound": false
+  },
+  "performance": {
+    "lazyLoading": 7,
+    "webpConversion": 0,
+    "fontOptimization": "bunny-fonts",
+    "trackingRemoved": true
+  },
+  "seo": {
+    "metaTags": {
+      "lang": "added",
+      "openGraph": "added_missing",
+      "twitterCard": "added",
+      "geoTags": "added"
+    },
+    "schemaOrg": {
+      "webSite": "added",
+      "faqPage": "in_nosotros_page"
+    },
+    "content": {
+      "altTexts": "8 fixed"
+    }
+  }
+}
